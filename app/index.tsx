@@ -5,11 +5,15 @@ import { Link } from "expo-router";
 const Index = () => (
   <View>
     <Link href={"/(tabs)"}>
-      <Text>AAAAAAA</Text>
+      <Text style={styles.text}>AAAAAAA</Text>
     </Link>
   </View>
 );
 
 export default Index;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  text: {
+    color: "white",
+  },
+});
